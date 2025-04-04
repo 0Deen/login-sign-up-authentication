@@ -13,3 +13,5 @@ export const verifyToken = (req,res,next) => {
     });
 
 }
+
+// used to verify and collect cookies 
