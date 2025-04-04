@@ -29,3 +29,5 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
+//connection of mongodb on the .env file
