@@ -84,3 +84,4 @@ export const logout = (req, res) => {
   .status(200)
   .json({ message: "Logged out successfully" });
 };
+//used bcrypt for encryption and security 
