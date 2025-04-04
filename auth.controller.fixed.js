@@ -8,7 +8,7 @@ export const register = async (req, res) => {
     // Hash password
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    // Create user and save to database
+    // Create a user and save to database
     const newUser = await prisma.user.create({
       data: {
         username,
@@ -76,3 +76,4 @@ export const logout = (req, res) => {
     .status(200)
     .json({ message: "Logged out successfully" });
 };
+//I used prism 
